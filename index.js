@@ -26,3 +26,5 @@ wss.on("connection", function(ws) {
     clearInterval(id)
   })
 })
+
+app.get('/new-card', (req, res) => res.send('Hello World!'))
